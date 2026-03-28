@@ -9,4 +9,4 @@
 
 1) Install [CachyOS](https://cachyos.org/download/) with "No Desktop" selected as your desktop environment
 
-2) `source < (curl https://raw.githubusercontent.com/GeeTwentyFive/MinOS/refs/heads/main/MinOS.sh)`
+2) `source < (curl -s https://raw.githubusercontent.com/GeeTwentyFive/MinOS/refs/heads/main/MinOS.sh)`
