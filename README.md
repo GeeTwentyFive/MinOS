@@ -12,7 +12,7 @@
 2) `sudo source < (curl -s https://raw.githubusercontent.com/GeeTwentyFive/MinOS/refs/heads/main/MinOS.sh)`
 
 
-# Post-script usage
+# Post-install distro usage
 
 - Start programs with `qexec <PROGRAM>`
 
