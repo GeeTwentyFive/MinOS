@@ -51,26 +51,26 @@
 
 - Browser: `paru -S helium-browser-bin`
 
-- Code/text editor: `paru -S visual-studio-code-bin`
-
-- Audio editor: `sudo pacman -S audacity`
-
-- 3D modeler: `sudo pacman -S blender`
+- Video player: `sudo pacman -S mpv`
 
 - Music player: `sudo pacman -S cmus`
 
-- 3D CAD modeler: `sudo pacman -S freecad`
+- Image editor/viewer: `sudo pacman -S gimp`
 
-- Software-reverse-engineering tool: `sudo pacman -S ghidra`
-
-- Image editor: `sudo pacman -S gimp`
-
-- Game engine: `sudo pacman -S godot`
-
-- Vector graphics (SVG) editor: `sudo pacman -S inkscape`
+- Code/text editor: `paru -S visual-studio-code-bin`
 
 - Video editor: `sudo pacman -S kdenlive`
 
+- Audio editor: `sudo pacman -S audacity`
+
 - Music creator (Digital Audio Workstation): `sudo pacman -S lmms`
 
-- Video player: `sudo pacman -S mpv`
+- Game engine: `sudo pacman -S godot`
+
+- 3D modeler: `sudo pacman -S blender`
+
+- 3D CAD modeler: `sudo pacman -S freecad`
+
+- Vector graphics (SVG) editor: `sudo pacman -S inkscape`
+
+- Software-reverse-engineering tool: `sudo pacman -S ghidra`
