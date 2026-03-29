@@ -13,7 +13,7 @@ pacman -Syu --noconfirm \
 base-devel \
 xorg-server \
 xorg-xinit \
-cachy-gaming-meta \
+cachyos-gaming-meta \
 zip \
 fuse2 \
 ksnip
