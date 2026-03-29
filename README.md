@@ -9,7 +9,7 @@
 
 1) Install [CachyOS](https://cachyos.org/download/) with "No Desktop" selected as your desktop environment
 
-2) `sudo bash < (curl -s https://raw.githubusercontent.com/GeeTwentyFive/MinOS/refs/heads/main/MinOS.sh)`
+2) `curl -s https://raw.githubusercontent.com/GeeTwentyFive/MinOS/refs/heads/main/MinOS.sh | sudo bash -s --`
 
 
 # Post-install distro usage
