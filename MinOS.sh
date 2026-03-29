@@ -22,7 +22,7 @@ ksnip
 echo "Installing window manager.."
 
 curl https://raw.githubusercontent.com/GeeTwentyFive/fwm/refs/heads/main/fwm.c > fwm.c
-exec gcc -O2 -march=x86-64-v2 -mtune=native fwm.c -lX11 -o /usr/bin/fwm
+gcc -O2 -march=x86-64-v2 -mtune=native fwm.c -lX11 -o /usr/bin/fwm
 chmod +x /usr/bin/fwm
 rm fwm.c
 
@@ -39,10 +39,13 @@ curl https://raw.githubusercontent.com/GeeTwentyFive/LinuxQuietExec/refs/heads/m
 chmod +x /usr/bin/qexec
 
 
+HOME=$(eval echo ~$SUDO_USER)
+
+
 echo "Writing X11 init script (~/.xinitrc)..."
 
-echo "remove-accel" > ~/.xinitrc
-echo "exec fwm alacritty ksnip -r" >> ~/.xinitrc
+echo "remove-accel" > $HOME/.xinitrc
+echo "exec fwm alacritty ksnip -r" >> $HOME/.xinitrc
 
 
 echo "Disabling boot menu..."

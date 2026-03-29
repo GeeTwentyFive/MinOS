@@ -14,6 +14,16 @@
 
 # Post-install distro usage
 
+- **Start graphical interface** (display server and window manager): `startx`
+
+- Launch terminal: Win+Space
+
+- Switch between open windows: Win+X and Win+C
+
+- Kill selected window: Win+Escape
+
+- Screenshot: Win+S
+
 - Start programs with `qexec <PROGRAM>`
 
 - Update system with `sudo pacman -Syu`
