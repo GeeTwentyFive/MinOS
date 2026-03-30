@@ -13,6 +13,7 @@ pacman -Syu --noconfirm \
 base-devel \
 xorg-server \
 xorg-xinit \
+xorg-xinput \
 cachyos-gaming-meta \
 zip \
 fuse2 \
